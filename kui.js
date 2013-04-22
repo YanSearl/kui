@@ -1,8 +1,6 @@
 /* kui - v0.1.0 - 2013-04-22 */
 /**
- * kui a small UI for webapp
- * @version 1.0
- * @update 2013-4-22 14:53:31
+ * kui
  */
 
 var kui = {
