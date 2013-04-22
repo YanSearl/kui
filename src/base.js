@@ -1,6 +1,5 @@
 /**
- * kui a small UI for webapp
- * @version 1.0
+ * kui
  * @update 2013-4-22 14:53:31
  */
 
