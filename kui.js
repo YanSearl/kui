@@ -1,4 +1,4 @@
-/* kui - v0.1.0 - 2013-04-22 */
+/* kui - v0.1.0 - 2013-07-16 */
 /**
  * kui
  */
@@ -141,7 +141,8 @@ kui.share = function(type, share_title, share_pic,share_url) {
 			share_to = "http://share.v.t.qq.com/index.php?c=share&a=index&f=q2&url=" + share_url + "&title=" + share_title + "&pic=" + share_pic;
 			break;
 		case "qzone":
-			share_to = "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + share_url + "&title=" + share_title + "&pic=" + share_pic;
+			//share_to = "http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=" + share_url + "&title=" + share_title + "&pic=" + share_pic; //pic 
+			share_to = "http://sns.z.qq.com/share?url=" + share_url + "&web_url=" + share_url + "&title=" + share_title + "&pic_url=" + share_pic + "&g_ut=2";
 			break;
 		case "rr":
 			share_to = "http://widget.renren.com/dialog/share?resourceUrl=" + share_url + "&pic=" + share_pic + "&description=" + share_title + "&srcUrl=" + share_url;
